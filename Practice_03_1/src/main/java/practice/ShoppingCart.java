@@ -14,6 +14,7 @@ package practice;
  */
 public class ShoppingCart {
         public static void main(String[] args) {
+        //code goes here in the code block
         
     }
 }
