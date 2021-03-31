@@ -19,5 +19,7 @@ public class ShoppingCart {
         //Write here
         
         System.out.println("Hello World");
+        
+        //System.out.println(<some string value>);  String literal 
     }
 }
