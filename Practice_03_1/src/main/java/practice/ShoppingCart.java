@@ -14,7 +14,10 @@ package practice;
  */
 public class ShoppingCart {
         public static void main(String[] args) {
+        //Entry point of the program
         //code goes here in the code block
+        //Write here
         
+        System.out.println("Hello World");
     }
 }
