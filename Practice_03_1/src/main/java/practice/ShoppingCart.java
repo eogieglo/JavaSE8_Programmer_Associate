@@ -7,8 +7,13 @@ package practice;
 
 /**
  *
- * @author Administrador
+ * @author eogieglo
+ * 
+ * The main method Example
+ * 
  */
 public class ShoppingCart {
-    
+        public static void main(String[] args) {
+        
+    }
 }
