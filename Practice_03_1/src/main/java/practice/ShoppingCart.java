@@ -18,7 +18,7 @@ public class ShoppingCart {
         //code goes here in the code block
         //Write here
         
-        System.out.println("Hello World");
+        System.out.println("Welcome to the Shopping Cart");
         
         //System.out.println(<some string value>);  String literal 
     }
