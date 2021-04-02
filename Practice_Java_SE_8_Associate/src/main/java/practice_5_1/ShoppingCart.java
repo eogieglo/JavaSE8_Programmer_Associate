@@ -33,9 +33,6 @@ public class ShoppingCart {
         double tax = 2;
         int quantity = 3;
         double total;
-        //Boolean
-        boolean outOfStock = false;
-        
         
         //Assign de message variable
         System.out.println(" ");
@@ -50,9 +47,18 @@ public class ShoppingCart {
                 System.out.println(message +"s");
                 System.out.println(" ");
             }
+       
+             //Boolean
+        boolean outOfStock = true;//Try RUN false or true
         
-        //Print and Run de code
-        System.out.println(" ");
-        System.out.println("And the total is: " + total);
+        //Use if / else statement to test Stock
+        if(outOfStock){
+            System.out.println(itemDesc + " product is unavailable");
+        }else{
+            System.out.println(" ");
+            System.out.println("And the total is: " + total);    
+        }
+            
+        
     }
 }
