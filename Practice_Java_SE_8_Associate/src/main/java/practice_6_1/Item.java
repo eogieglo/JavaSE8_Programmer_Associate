@@ -8,6 +8,8 @@ package practice_6_1;
 /**
  *
  * @author Administrador
+ * 
+ * Creating the Item class
  */
 public class Item {
     public int itemID;
