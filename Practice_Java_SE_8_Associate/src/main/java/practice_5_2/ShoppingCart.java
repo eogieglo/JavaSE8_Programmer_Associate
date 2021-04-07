@@ -29,14 +29,19 @@ public class ShoppingCart {
         String[] items={"Shirt","Socks","Scarf","Belt"};
         
         //Change message to show the items purchased
-        message = custName " wants to purchase " + items.length + " items.";
+        message = custName + " wants to purchase " + items.length + " items.";
             System.out.println(message);
             
         //Print an element from the items array
             System.out.println(items[2]);
             System.out.println(items[3]);
             System.out.println(items[1]);
-            // System.out.println(items[4]); // What happens if you use index number 4=
-        
+            //System.out.println(items[4]); // What happens if you use index number 4?
+     
+            /*
+            Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
+                at practice_5_2.ShoppingCart.main(ShoppingCart.java:39)
+                    Command execution failed.
+            */
     }
 }
