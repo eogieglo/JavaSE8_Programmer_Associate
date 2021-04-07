@@ -35,5 +35,6 @@ public class ShoppingCart {
         item1 = item2;
         System.out.println("Item1: " + item1.desc);
         System.out.println("Item2: " + item2.desc);
+        
     }
 }
