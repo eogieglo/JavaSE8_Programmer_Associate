@@ -3,6 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
+
+        
 package practice_6_1;
 
 import practice_5_3.*;
@@ -16,6 +20,8 @@ import practice_5_2.*;
  * Modify the ShoppingCart to Use the Item fields 
  * 
  */
+
+
 public class ShoppingCart {
         public static void main(String[] args) {
         //Entry point of the program
