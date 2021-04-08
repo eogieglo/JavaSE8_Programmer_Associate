@@ -7,15 +7,13 @@
 
 
         
-package practice_7_1;
-
-
+package practice_7_2;
 
 /**
  *
  * @author eogieglo
  * 
- * Use the indexOf() and substring() Methods 
+ * Instantiating a StringBuilder Object
  * 
  */
 
@@ -38,9 +36,16 @@ public class ShoppingCart {
         
             System.out.println(firstName);
             
-       
+             //Instantiate and initialize sb to firstName
+        StringBuilder sb = new StringBuilder(firstName);
         
+        //Put the full name back together, using Stringbuilder append Method.
+        //You can just enter the String literal for the last name
+        //Print the full name
+        sb.append(" Smith");
         
-        
+        //Optional ** Can you append the last name without a String literal?
+        sb.append(custName.substring(spaceIdx));
+            System.out.println(sb);
     }
 }
