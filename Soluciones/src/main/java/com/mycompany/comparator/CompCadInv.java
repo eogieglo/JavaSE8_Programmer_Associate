@@ -16,7 +16,7 @@ import java.util.*;
     // Ordena una matriz de cadenas en orden inverso.  
 // Crea un Comparator que devuelve la salida 
 // de una comparación de cadena inversa. 
-public class CompCadInv implements Comparator<String> { 
+class CompCadInv implements Comparator<String> { 
  // Implementa el método compare( ) de modo que 
  // invierte el orden de la comparación de la cadena. 
  public int compare(String cadA, String cadB) { 
@@ -24,18 +24,4 @@ public class CompCadInv implements Comparator<String> {
  return cadB.compareTo(cadA); 
  } 
 } 
-// Demuestra el comparador de cadena inverso. 
-class OrdenCadInv { 
- public static void main(String args[ ]) { 
- // Crea una matriz simple de cadenas. 
- String cads[ ] = { "perro", "caballo", "cebra", "vaca", "gato" }; 
- // Muestra el orden inicial. 
- System.out.print("Orden inicial: "); 
- for(String s : cads) 
- System.out.print(s + " "); 
- System.out.println("\n"); 
- // Ordena la matriz a la inversa. 
- // Empieza por crear un comparador de cadena inversa. 
- CompCadInv cci = new CompCadInv( ); 
-}
-}
+
