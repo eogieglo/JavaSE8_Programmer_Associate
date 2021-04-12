@@ -6,6 +6,7 @@
 package com.mycompany.comparator;
 
 import java.util.Comparator;
+import javax.crypto.AEADBadTagException;
 
 /**
  *
@@ -20,4 +21,19 @@ class CompareIgnoreCase implements Comparator<String> {
  public int compare(String cadA, String cadB) { 
  return cadA.compareToIgnoreCase(cadB); 
  } 
+ 
+    public static void main(String[] args) {
+       
+       String cadena;
+       String cadena1 = "Hola Mundoooo";
+       String cadena2 = "Hola mundo";
+               
+               
+       CompareIgnoreCase comparar = new CompareIgnoreCase();
+        
+       System.out.println(comparar.compare(cadena1,cadena2));
+       
+    }
 } 
+
+
